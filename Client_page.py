@@ -1,0 +1,150 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'form.ui'
+##
+## Created by: Qt User Interface Compiler version 6.9.1
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QLabel, QLineEdit, QMainWindow,
+    QPushButton, QSizePolicy, QWidget)
+
+class Ui_Client_page(object):
+    def setupUi(self, Client_page):
+        if not Client_page.objectName():
+            Client_page.setObjectName(u"Client_page")
+        Client_page.resize(800, 600)
+        Client_page.setMaximumSize(QSize(800, 600))
+        self.centralwidget = QWidget(Client_page)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.lineEdit_7 = QLineEdit(self.centralwidget)
+        self.lineEdit_7.setObjectName(u"lineEdit_7")
+        self.lineEdit_7.setGeometry(QRect(180, 150, 141, 25))
+        self.lineEdit_7.setMaxLength(32767)
+        self.lineEdit_2 = QLineEdit(self.centralwidget)
+        self.lineEdit_2.setObjectName(u"lineEdit_2")
+        self.lineEdit_2.setGeometry(QRect(180, 200, 141, 25))
+        self.lineEdit_6 = QLineEdit(self.centralwidget)
+        self.lineEdit_6.setObjectName(u"lineEdit_6")
+        self.lineEdit_6.setGeometry(QRect(180, 250, 141, 25))
+        self.lineEdit_5 = QLineEdit(self.centralwidget)
+        self.lineEdit_5.setObjectName(u"lineEdit_5")
+        self.lineEdit_5.setGeometry(QRect(180, 300, 141, 25))
+        self.label_6 = QLabel(self.centralwidget)
+        self.label_6.setObjectName(u"label_6")
+        self.label_6.setGeometry(QRect(70, 250, 101, 31))
+        self.label_6.setMaximumSize(QSize(800, 600))
+        font = QFont()
+        font.setFamilies([u"Arial"])
+        font.setPointSize(14)
+        self.label_6.setFont(font)
+        self.pushButton = QPushButton(self.centralwidget)
+        self.pushButton.setObjectName(u"pushButton")
+        self.pushButton.setGeometry(QRect(300, 450, 100, 32))
+        font1 = QFont()
+        font1.setFamilies([u"Arial"])
+        font1.setPointSize(14)
+        font1.setBold(False)
+        self.pushButton.setFont(font1)
+        self.pushButton.setAutoDefault(False)
+        self.pushButton.setFlat(False)
+        self.label_4 = QLabel(self.centralwidget)
+        self.label_4.setObjectName(u"label_4")
+        self.label_4.setGeometry(QRect(70, 150, 101, 31))
+        self.label_4.setMaximumSize(QSize(800, 600))
+        self.label_4.setFont(font)
+        self.label_3 = QLabel(self.centralwidget)
+        self.label_3.setObjectName(u"label_3")
+        self.label_3.setGeometry(QRect(70, 100, 101, 31))
+        self.label_3.setMaximumSize(QSize(800, 600))
+        self.label_3.setFont(font)
+        self.lineEdit_4 = QLineEdit(self.centralwidget)
+        self.lineEdit_4.setObjectName(u"lineEdit_4")
+        self.lineEdit_4.setGeometry(QRect(180, 350, 141, 25))
+        self.label = QLabel(self.centralwidget)
+        self.label.setObjectName(u"label")
+        self.label.setGeometry(QRect(70, 50, 101, 31))
+        self.label.setMaximumSize(QSize(800, 600))
+        self.label.setFont(font)
+        self.label.setScaledContents(False)
+        self.label.setWordWrap(True)
+        self.pushButton_2 = QPushButton(self.centralwidget)
+        self.pushButton_2.setObjectName(u"pushButton_2")
+        self.pushButton_2.setGeometry(QRect(450, 450, 100, 32))
+        self.pushButton_2.setFont(font)
+        self.lineEdit = QLineEdit(self.centralwidget)
+        self.lineEdit.setObjectName(u"lineEdit")
+        self.lineEdit.setGeometry(QRect(180, 50, 141, 25))
+        self.label_7 = QLabel(self.centralwidget)
+        self.label_7.setObjectName(u"label_7")
+        self.label_7.setGeometry(QRect(70, 300, 101, 31))
+        self.label_7.setMaximumSize(QSize(800, 600))
+        self.label_7.setFont(font)
+        self.label_8 = QLabel(self.centralwidget)
+        self.label_8.setObjectName(u"label_8")
+        self.label_8.setGeometry(QRect(70, 350, 101, 31))
+        self.label_8.setMaximumSize(QSize(800, 600))
+        self.label_8.setFont(font)
+        self.label_5 = QLabel(self.centralwidget)
+        self.label_5.setObjectName(u"label_5")
+        self.label_5.setGeometry(QRect(70, 200, 101, 31))
+        self.label_5.setMaximumSize(QSize(800, 600))
+        self.label_5.setFont(font)
+        self.lineEdit_3 = QLineEdit(self.centralwidget)
+        self.lineEdit_3.setObjectName(u"lineEdit_3")
+        self.lineEdit_3.setGeometry(QRect(180, 100, 141, 25))
+        self.label_9 = QLabel(self.centralwidget)
+        self.label_9.setObjectName(u"label_9")
+        self.label_9.setGeometry(QRect(70, 570, 171, 31))
+        self.label_9.setMaximumSize(QSize(800, 600))
+        self.label_9.setFont(font)
+        Client_page.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(Client_page)
+
+        self.pushButton.setDefault(True)
+        self.pushButton_2.setDefault(True)
+
+
+        QMetaObject.connectSlotsByName(Client_page)
+    # setupUi
+
+    def retranslateUi(self, Client_page):
+        Client_page.setWindowTitle(QCoreApplication.translate("Client_page", u"Client_page", None))
+        self.lineEdit_7.setText("")
+        self.lineEdit_2.setText("")
+        self.lineEdit_6.setText("")
+        self.lineEdit_5.setText("")
+        self.label_6.setText(QCoreApplication.translate("Client_page", u"Address", None))
+        self.pushButton.setText(QCoreApplication.translate("Client_page", u"Save", None))
+        self.label_4.setText(QCoreApplication.translate("Client_page", u"FBR Reg No", None))
+        self.label_3.setText(QCoreApplication.translate("Client_page", u"NTN", None))
+        self.lineEdit_4.setText("")
+        self.label.setText(QCoreApplication.translate("Client_page", u"Registration No.(Optional)", None))
+        self.pushButton_2.setText(QCoreApplication.translate("Client_page", u"Submit", None))
+        self.lineEdit.setText("")
+        self.label_7.setText(QCoreApplication.translate("Client_page", u"Tell", None))
+        self.label_8.setText(QCoreApplication.translate("Client_page", u"Email", None))
+        self.label_5.setText(QCoreApplication.translate("Client_page", u"Name", None))
+        self.lineEdit_3.setText("")
+        self.label_9.setText(QCoreApplication.translate("Client_page", u"Auto show on invoice", None))
+    # retranslateUi
+if __name__ == "__main__":
+    import sys
+    from PySide6.QtWidgets import QApplication, QMainWindow
+
+    app = QApplication(sys.argv)
+    Client_page = QMainWindow()
+    ui = Ui_Client_page()
+    ui.setupUi(Client_page)
+    Client_page.show()
+    sys.exit(app.exec())
