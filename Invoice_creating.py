@@ -184,6 +184,7 @@ class Ui_Invoice_Creating(object):
         __qtablewidgetitem13 = QTableWidgetItem()
         self.tableWidget.setItem(0, 5, __qtablewidgetitem13)
         __qtablewidgetitem14 = QTableWidgetItem()
+        self.tableWidget.setItem(1, 0, QTableWidgetItem("Total"))
         self.tableWidget.setItem(1, 2, __qtablewidgetitem14)
         __qtablewidgetitem15 = QTableWidgetItem()
         self.tableWidget.setItem(1, 3, __qtablewidgetitem15)
@@ -218,7 +219,7 @@ class Ui_Invoice_Creating(object):
 
         self.pushButton.setDefault(True)
         self.pushButton_2.setDefault(True)
-
+        self.tableWidget.verticalHeader().setVisible(False)
         # --- Use custom header for word wrap ---
         header = WordWrapHeader(Qt.Horizontal, self.tableWidget)
         self.tableWidget.setHorizontalHeader(header)
