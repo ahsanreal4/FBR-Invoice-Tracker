@@ -200,7 +200,7 @@ class Ui_Invoice_page(object):
         self.label_13.setGeometry(QRect(20, 500, 181, 16))
         self.label_14 = QLabel(self.centralwidget)
         self.label_14.setObjectName(u"label_14")
-        self.label_14.setGeometry(QRect(250, 530, 381, 20))
+        self.label_14.setGeometry(QRect(220, 530, 381, 20))
         Invoice_page.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(Invoice_page)
